@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale= 1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+
+<body>
+    <!-- Links bar -->
+    <header>
+        <ul id="nav_bar">
+            <li class="nav-links"><a href="index.html">Home page</a></li>
+        </ul>
+    </header>
+
+
+    <!-- Page logo -->
+    <br>
+    <div>
+        <img id="advanced_image" src="googlelogo_color_272x92dp.png" alt="googlelogo_color_272x92dp">
+        <p id="advanced_search">Advanced Search</p>
+    </div>
+    <hr color="#DFDEDE" size="1px">
+
+
+    <!-- The upper text of the advanced search section -->
+    <ul id="upper_text">
+        <li id="find">Find pages with... </li>
+        <li id="to_do">To do this in the search box.</li>
+    </ul>
+
+    <!-- Advanced search section -->
+    <form action="https://www.google.com/search">
+        <ul id="advanced_search_list">
+            <li class="li_advanced">
+                <div class="grid_form">
+                    <p class="grid_p">all these words:</p>
+                    <input class="text_form" type="text" name="as_q">
+                    <p class="grid_p2">Type the important words: tri-colour rat terrier</p>
+                </div>
+            </li><br>
+            <li class="li_advanced">
+                <div class="grid_form">
+                    <p class="grid_p">this exact word or phrase:</p>
+                    <input class="text_form" type="text" name="as_epq">
+                    <p class="grid_p2">Put exact words in quotes: "rat terrier"</p>
+                </div>
+            </li><br>
+            <li class="li_advanced">
+                <div class="grid_form">
+                    <p class="grid_p">any of these words:</p>
+                    <input class="text_form" type="text" name="as_oq">
+                    <p class="grid_p2">Type OR between all the words you want: miniature OR standard</p>
+                </div>
+            </li><br>
+            <li class="li_advanced">
+                <div class="grid_form">
+                    <p class="grid_p">none of these words:</p>
+                    <input class="text_form" type="text" name="as_eq">
+                    <p class="grid_p2">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                    </p>
+                </div>
+            </li><br>
+            <li class="li_advanced">
+                <div class="grid_form">
+                    <p class="grid_p"></p>
+                    <div id="text_form"><input id="button_advanced_search" type="submit" value="Advanced Search"></div>
+                    <p class="grid_p2"></p>
+                </div>
+            </li>
+        </ul>
+    </form>
+</body>
+
+</html>
